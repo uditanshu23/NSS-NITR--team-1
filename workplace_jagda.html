@@ -3,21 +3,21 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"/>
-	<title>NSS Homepage</title>
+	<title>Jagda Orphanage</title>
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+	
 </head>
 <body>
 	<header>
-			<a href="#" class="logo"><img src="logo.jpeg" height="3.8%" width="3.8%" style="background-color: #154254;"></a>
-			<div class="navbar">
-  <a href="index.html">Home</a>
+		<a href="index.html"><img src="logo.jpeg" height="3.75%" width="3.75%"></a>
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Home</a>
   <div class="dropdown">
-    <button class="dropbtn">Teams
+    <button class="dropbtn">Teams 
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
@@ -25,7 +25,7 @@
       <a href="#">Team of 2018-19</a>
       <a href="#">Team of 2017-18</a>
     </div>
-  </div>
+  </div> 
   <div class="dropdown">
     <button class="dropbtn">Workplace
       <i class="fa fa-caret-down"></i>
@@ -34,7 +34,7 @@
       <a href="workplace_awareness.html">Awareness and cleaning</a>
       <a href="workplace_birsamunda.html">Birsamunda Bidyapitha</a>
       <a href="workplace_eastk.html">East Kantajhar</a>
-      <a href="#">Jagda Orphanage</a>
+      <a href="workplace_jagda.html">Jagda Orphanage</a>
       <a href="workplace_lep.html">Leprosy Colony</a>
       <a href="workplace_rec.html">REC Campus School</a>
       <a href="workplace_southk.html">South Kantajhar</a>
@@ -67,11 +67,21 @@
       <a href="#">Register</a>
     </div>
   </div>
-  <button class="login">Login
-    </button>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
 </div>
-	</header>
-	<h1>Jagda Orphanage</h1>
+</header>
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
 
 	    
 	    	
