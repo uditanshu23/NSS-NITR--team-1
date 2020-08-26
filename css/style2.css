@@ -2,14 +2,21 @@
 	
 }
 .textContainer{
-		width: 40%;
 		height: 15rem;
 		overflow: auto;
 		overflow: hidden;
 		padding: 20px;
-		margin: 10px;
+		margin: 20px;
 		border: 1px solid #000000;
 }
 .content{
 	padding: 5px;
+}
+.auto_cointainer{
+	width: 40%;
+}
+.auto_head{
+	text-align: center;
+	font-weight: bolder;
+	font-size: 120%;
 }
