@@ -44,4 +44,9 @@
 	.auto_cointainer{
 		width: 100%;
 	}
+	.intro{
+		width: 100%;
+		height: 18rem;
+		margin: 1px;
+	}
 }
