@@ -1,3 +1,15 @@
 .intro{
 	
 }
+.textContainer{
+		width: 40%;
+		height: 15rem;
+		overflow: auto;
+		overflow: hidden;
+		padding: 20px;
+		margin: 10px;
+		border: 1px solid #000000;
+}
+.content{
+	padding: 5px;
+}
