@@ -178,9 +178,9 @@ img {vertical-align: middle;}
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 2s;
+  -webkit-animation-duration: 2.5s;
   animation-name: fade;
-  animation-duration: 2s;
+  animation-duration: 2.5s;
 }
 
 @-webkit-keyframes fade {
@@ -209,6 +209,7 @@ img {vertical-align: middle;}
   font-size:15px;
   line-height:24px;
   color:#AEB0B5;
+  width: 100%
 }
 .site-footer hr
 {
@@ -396,5 +397,8 @@ img {vertical-align: middle;}
   .dev_text{
     float: none;
     text-align: center;
+  }
+  .site-footer{
+    width: 100%;
   }
 }
